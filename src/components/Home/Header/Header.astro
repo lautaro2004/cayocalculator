@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets';
+import styles from "./Header.module.css";
+---
+
+<div class={styles.header__container}>
+    <div class={styles.top__container}>
+        <Image src="/images/gta-logo.png" alt="Gta icon" width="95" height="65" />
+    </div>
+    <div class={styles.title__container}>
+        <h1>
+            CAYO
+        </h1>
+        <h2>
+            CALCULATOR
+        </h2>
+    </div>
+</div>
